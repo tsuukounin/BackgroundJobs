@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tsuukounin.BackgroungJobs.Core", "Tsuukounin.BackgroungJobs.Core\Tsuukounin.BackgroungJobs.Core.csproj", "{5686C0AE-1E2B-4FF3-9EEE-0139FE1F70A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tsuukounin.BackgroundJobs.Core", "Tsuukounin.BackgroundJobs.Core\Tsuukounin.BackgroundJobs.Core.csproj", "{5686C0AE-1E2B-4FF3-9EEE-0139FE1F70A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tsuukounin.BackgroungJobs.AspNetCore", "Tsuukounin.BackgroungJobs.AspNetCore\Tsuukounin.BackgroungJobs.AspNetCore.csproj", "{72481E41-BDEE-485F-93D0-A9F1D41DFB26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tsuukounin.BackgroundJobs.AspNetCore", "Tsuukounin.BackgroundJobs.AspNetCore\Tsuukounin.BackgroundJobs.AspNetCore.csproj", "{72481E41-BDEE-485F-93D0-A9F1D41DFB26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tsuukounin.BackgroungJobs.Tests", "Tsuukounin.BackgroungJobs.Tests\Tsuukounin.BackgroungJobs.Tests.csproj", "{B87C83F1-CBB9-4721-8BDA-6E940EB346AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tsuukounin.BackgroundJobs.Tests", "Tsuukounin.BackgroundJobs.Tests\Tsuukounin.BackgroundJobs.Tests.csproj", "{B87C83F1-CBB9-4721-8BDA-6E940EB346AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tsuukounin.BackgroundJobs.Example", "Tsuukounin.BackgroundJobs.Example\Tsuukounin.BackgroundJobs.Example.csproj", "{4CD1E7AE-E4EA-49C3-A55D-A5A904D9BDF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B87C83F1-CBB9-4721-8BDA-6E940EB346AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B87C83F1-CBB9-4721-8BDA-6E940EB346AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B87C83F1-CBB9-4721-8BDA-6E940EB346AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD1E7AE-E4EA-49C3-A55D-A5A904D9BDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD1E7AE-E4EA-49C3-A55D-A5A904D9BDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD1E7AE-E4EA-49C3-A55D-A5A904D9BDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD1E7AE-E4EA-49C3-A55D-A5A904D9BDF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

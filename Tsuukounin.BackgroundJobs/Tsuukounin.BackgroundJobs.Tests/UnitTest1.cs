@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace Tsuukounin.BackgroungJobs.Tests
+namespace Tsuukounin.BackgroundJobs.Tests
 {
 	public class Tests
 	{
