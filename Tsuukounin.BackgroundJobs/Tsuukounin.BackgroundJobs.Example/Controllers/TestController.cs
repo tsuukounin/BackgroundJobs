@@ -19,7 +19,7 @@ namespace Tsuukounin.BackgroundJobs.Example.Controllers
 		}
 
 		[HttpGet]
-		public async Task<IActionResult> StartBackgroundJob()
+		public async Task<IActionResult> StartBackgroundJobs()
 		{
 			_BackgroundJobsService.Execute(_timeConsumingTaskService.DoWork("1"));
 			_BackgroundJobsService.Execute(_timeConsumingTaskService.DoWork("2"));
@@ -28,6 +28,18 @@ namespace Tsuukounin.BackgroundJobs.Example.Controllers
 			await Task.Delay(3500);
 			_BackgroundJobsService.Execute(_timeConsumingTaskService.DoWork("4"));
 			return Ok("Success");
+		}
+
+		[HttpGet]
+		public async Task<IActionResult> StartJobWithException()
+		{
+			_BackgroundJobsService.Execute(EcxeptionTask());
+			return Ok("Success");
+		}
+
+		private async Task EcxeptionTask()
+		{
+			throw new System.Exception("Exception task");
 		}
 	}
 }
