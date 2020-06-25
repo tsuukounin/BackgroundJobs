@@ -77,7 +77,7 @@ namespace Tsuukounin.BackgroundJobs.AspNetCore
                 Task aggregationTask = null;
                 try
                 {
-                    aggregationTask = Task.WhenAll(_tasks);
+                    aggregationTask = Task.WhenAll(tasks);
                     aggregationTask.Wait();
                 }
                 catch (Exception ex)

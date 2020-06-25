@@ -30,7 +30,7 @@ namespace Tsuukounin.BackgroundJobs.Tests
 		[Test]
 		public async Task ControllerReturnsOK()
 		{
-			var result = await _client.GetAsync("/test/StartBackgroundJob");
+			var result = await _client.GetAsync("/test/StartBackgroundJobs");
 			Assert.That(result.StatusCode, Is.EqualTo(HttpStatusCode.OK));
 		}
 
